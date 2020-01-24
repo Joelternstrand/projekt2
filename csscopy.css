@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#container {
+    display: flex;
+    background-color: brown;
+    width: 100vw;
+    height: 100px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.flex div{
+    background-color: blue;
+    margin: 25px;
+    float: 1;
+}
